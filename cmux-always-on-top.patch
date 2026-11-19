@@ -1,0 +1,959 @@
+diff --git a/Resources/Localizable.xcstrings b/Resources/Localizable.xcstrings
+index e531da99..4ee04f1d 100644
+--- a/Resources/Localizable.xcstrings
++++ b/Resources/Localizable.xcstrings
+@@ -459837,6 +459837,125 @@
+         }
+       }
+     },
++    "titlebar.pinWindow": {
++      "extractionState": "manual",
++      "localizations": {
++        "ar": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "تثبيت النافذة في المقدمة"
++          }
++        },
++        "bs": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Zakači prozor na vrh"
++          }
++        },
++        "da": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Fastgør vindue øverst"
++          }
++        },
++        "de": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Fenster im Vordergrund halten"
++          }
++        },
++        "en": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Pin Window"
++          }
++        },
++        "es": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Fijar ventana en primer plano"
++          }
++        },
++        "fr": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Épingler la fenêtre au premier plan"
++          }
++        },
++        "it": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Fissa la finestra in primo piano"
++          }
++        },
++        "ja": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "ウインドウを最前面に固定"
++          }
++        },
++        "ko": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "윈도우를 맨 앞에 고정"
++          }
++        },
++        "nb": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Fest vinduet øverst"
++          }
++        },
++        "pl": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Przypnij okno na wierzchu"
++          }
++        },
++        "pt-BR": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Fixar janela em primeiro plano"
++          }
++        },
++        "ru": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Закрепить окно поверх остальных"
++          }
++        },
++        "th": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "ปักหมุดหน้าต่างไว้ด้านบน"
++          }
++        },
++        "tr": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Pencereyi üste sabitle"
++          }
++        },
++        "uk": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Закріпити вікно поверх інших"
++          }
++        },
++        "zh-Hans": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "窗口置顶"
++          }
++        },
++        "zh-Hant": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "將視窗置頂"
++          }
++        }
++      }
++    },
+     "titlebar.sidebar.accessibilityLabel": {
+       "extractionState": "manual",
+       "localizations": {
+@@ -460075,6 +460194,125 @@
+         }
+       }
+     },
++    "titlebar.unpinWindow": {
++      "extractionState": "manual",
++      "localizations": {
++        "ar": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "إلغاء تثبيت النافذة في المقدمة"
++          }
++        },
++        "bs": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Otkači prozor s vrha"
++          }
++        },
++        "da": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Frigør vindue"
++          }
++        },
++        "de": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Fenster nicht mehr im Vordergrund halten"
++          }
++        },
++        "en": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Unpin Window"
++          }
++        },
++        "es": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Dejar de fijar la ventana"
++          }
++        },
++        "fr": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Désépingler la fenêtre"
++          }
++        },
++        "it": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Sblocca la finestra dal primo piano"
++          }
++        },
++        "ja": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "ウインドウの最前面固定を解除"
++          }
++        },
++        "ko": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "윈도우 고정 해제"
++          }
++        },
++        "nb": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Løsne vinduet"
++          }
++        },
++        "pl": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Odepnij okno"
++          }
++        },
++        "pt-BR": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Desafixar janela"
++          }
++        },
++        "ru": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Открепить окно"
++          }
++        },
++        "th": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "เลิกปักหมุดหน้าต่าง"
++          }
++        },
++        "tr": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Pencereyi sabitlemeyi kaldır"
++          }
++        },
++        "uk": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "Відкріпити вікно"
++          }
++        },
++        "zh-Hans": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "取消窗口置顶"
++          }
++        },
++        "zh-Hant": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "取消視窗置頂"
++          }
++        }
++      }
++    },
+     "toolbar.layout.canvas": {
+       "extractionState": "manual",
+       "localizations": {
+diff --git a/Sources/App/CmuxMainWindow.swift b/Sources/App/CmuxMainWindow.swift
+index 2c9d83c9..f18df7af 100644
+--- a/Sources/App/CmuxMainWindow.swift
++++ b/Sources/App/CmuxMainWindow.swift
+@@ -114,6 +114,7 @@ func configureCmuxMainWindowDragBehavior(_ window: NSWindow) {
+ 
+ @MainActor
+ final class CmuxMainWindow: NSWindow {
++    private(set) lazy var pin = MainWindowPin(window: self)
+     private let workspaceSwitchSignposts = WorkspaceSwitchSignposts()
+ 
+     private var zoomIntent = MainWindowZoomIntentState()
+diff --git a/Sources/App/MainWindowController.swift b/Sources/App/MainWindowController.swift
+index 83adde4a..e05da36d 100644
+--- a/Sources/App/MainWindowController.swift
++++ b/Sources/App/MainWindowController.swift
+@@ -25,8 +25,10 @@ final class MainWindowController: ReleasingWindowController {
+ #endif
+ 
+     override func managedWindowWillClose(_ window: NSWindow) {
++        (window as? CmuxMainWindow)?.pin.detach()
+         clearFullscreenTilingOptOutIfNeeded(window)
+         onClose?(window)
++        AppDelegate.shared?.restorePeerLevelIfUnneeded()
+     }
+ 
+     /// Temporarily keeps a newly-created window out of the source fullscreen
+@@ -47,6 +49,7 @@ final class MainWindowController: ReleasingWindowController {
+     }
+ 
+     func windowWillEnterFullScreen(_ notification: Notification) {
++        (notification.object as? CmuxMainWindow)?.pin.setFullScreen(true)
+         setFullScreenTransitionInProgress(true, notification: notification)
+     }
+ 
+@@ -56,6 +59,7 @@ final class MainWindowController: ReleasingWindowController {
+ 
+     func windowDidFailToEnterFullScreen(_ window: NSWindow) {
+         guard window === self.window else { return }
++        (window as? CmuxMainWindow)?.pin.setFullScreen(false)
+         isFullScreenTransitionInProgress = false
+     }
+ 
+@@ -64,6 +68,7 @@ final class MainWindowController: ReleasingWindowController {
+     }
+ 
+     func windowDidExitFullScreen(_ notification: Notification) {
++        (notification.object as? CmuxMainWindow)?.pin.setFullScreen(false)
+         setFullScreenTransitionInProgress(false, notification: notification)
+         handleFrameRestorationCheckpoint("didExitFullScreen", notification: notification)
+     }
+diff --git a/Sources/App/MainWindowPin.swift b/Sources/App/MainWindowPin.swift
+new file mode 100644
+index 00000000..8d03d7f6
+--- /dev/null
++++ b/Sources/App/MainWindowPin.swift
+@@ -0,0 +1,45 @@
++import AppKit
++import Observation
++
++/// Owned by one terminal window. Titlebar views may outlive their attachment.
++@MainActor
++@Observable
++final class MainWindowPin {
++    @ObservationIgnored private weak var window: NSWindow?
++    private(set) var isPinned = false
++    @ObservationIgnored private var isInFullScreen = false
++
++    init(window: NSWindow) {
++        self.window = window
++    }
++
++    static func actionLabel(isPinned: Bool) -> String {
++        isPinned
++            ? String(localized: "titlebar.unpinWindow", defaultValue: "Unpin Window")
++            : String(localized: "titlebar.pinWindow", defaultValue: "Pin Window")
++    }
++
++    func toggle() {
++        guard let window else { return }
++        isPinned.toggle()
++        if !isInFullScreen {
++            window.level = isPinned ? .floating : .normal
++        }
++        AppDelegate.shared?.restorePeerLevelIfUnneeded()
++    }
++
++    func setFullScreen(_ fullScreen: Bool) {
++        isInFullScreen = fullScreen
++        if isPinned {
++            window?.level = fullScreen ? .normal : .floating
++        }
++    }
++
++    func detach() {
++        if isPinned && !isInFullScreen {
++            window?.level = .normal
++        }
++        window = nil
++        isPinned = false
++    }
++}
+diff --git a/Sources/App/NSWindow+CmuxPeerWindow.swift b/Sources/App/NSWindow+CmuxPeerWindow.swift
+index 09a6b017..39b56909 100644
+--- a/Sources/App/NSWindow+CmuxPeerWindow.swift
++++ b/Sources/App/NSWindow+CmuxPeerWindow.swift
+@@ -1,29 +1,41 @@
+ import AppKit
+ 
++@MainActor
++final class CmuxPeerWindowLevels {
++    private weak var raisedPeer: NSWindow?
++    private static let presentedLevel = NSWindow.Level(rawValue: NSWindow.Level.floating.rawValue + 1)
++
++    /// Only the presented peer needs to clear a pinned terminal. Sheets follow
++    /// their parent and windows with their own level (e.g. a HUD) keep it.
++    func present(_ window: NSWindow?, overPinnedTerminal: Bool) {
++        let peer = window?.sheetParent ?? window
++        if !overPinnedTerminal || peer !== raisedPeer {
++            restore()
++        }
++        guard overPinnedTerminal, let peer, raisedPeer !== peer,
++              !(peer is CmuxMainWindow), peer.parent == nil, !peer.isSheet,
++              peer.styleMask.contains(.titled), !peer.styleMask.contains(.fullScreen),
++              peer.level == .normal else { return }
++        raisedPeer = peer
++        peer.level = Self.presentedLevel
++    }
++
++    func restore() {
++        if let raisedPeer, raisedPeer.level == Self.presentedLevel {
++            raisedPeer.level = .normal
++        }
++        raisedPeer = nil
++    }
++}
++
+ extension NSWindow {
+-    /// Configures this window as a standard cmux top-level *peer* window.
+-    ///
+-    /// Peer windows — Settings, the Config editor, About — sit at
+-    /// `NSWindow.Level.normal` and obey standard macOS window ordering: clicking
+-    /// any sibling window (including the main terminal window) brings it forward
+-    /// and lets the peer recede behind it. This is the default every top-level
+-    /// window the user opens should adopt.
+-    ///
+-    /// It exists as a single, greppable seam so that "this is an ordinary
+-    /// top-level window" is stated explicitly rather than left implicit. The
+-    /// only sanctioned way to float a window above its siblings is to set
+-    /// `level = .floating` deliberately at the call site with a comment
+-    /// justifying it (e.g. DEBUG HUD/lab panels). Accidentally inheriting a
+-    /// floating level — via an `NSPanel` default or a stray `level = .floating`
+-    /// — is what produced the "Settings floats above the main window forever"
+-    /// bug (https://github.com/manaflow-ai/cmux/issues/5081).
+-    ///
+-    /// - Note: A plain `NSWindow` / SwiftUI `Window` scene already defaults to
+-    ///   `.normal`; calling this makes the invariant explicit and guards against
+-    ///   a later change (or a child-window attachment) silently re-floating the
+-    ///   window.
++    /// Settings and Config adopt ordinary peer ordering at presentation time.
+     @MainActor
+     func adoptCmuxPeerWindowLevel() {
+-        level = .normal
++        if let delegate = AppDelegate.shared {
++            delegate.presentPeerWindow(self, normalizeLevel: true)
++        } else {
++            level = .normal
++        }
+     }
+ }
+diff --git a/Sources/AppDelegate.swift b/Sources/AppDelegate.swift
+index 0fa5b72f..ee47faa2 100644
+--- a/Sources/AppDelegate.swift
++++ b/Sources/AppDelegate.swift
+@@ -1275,6 +1275,29 @@ final class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCent
+     /// Brings the tunnel down when Cloud Machines is turned off at runtime.
+     var cloudTunnelActivationObserver: CloudTunnelActivationObserver?
+     private var mainWindowControllers: [MainWindowController] = []
++    private let peerWindowLevels = CmuxPeerWindowLevels()
++
++    private var hasVisiblePinnedTerminal: Bool {
++        mainWindowControllers.contains { controller in
++            guard let window = controller.window as? CmuxMainWindow else { return false }
++            return window.level == .floating && window.pin.isPinned
++                && window.isVisible && window.alphaValue > 0 && !window.isMiniaturized && window.isOnActiveSpace
++        }
++    }
++
++    func presentPeerWindow(_ window: NSWindow, normalizeLevel: Bool = false) {
++        if normalizeLevel {
++            peerWindowLevels.restore()
++            window.level = .normal
++        }
++        peerWindowLevels.present(window, overPinnedTerminal: hasVisiblePinnedTerminal)
++    }
++
++    func restorePeerLevelIfUnneeded() {
++        if !hasVisiblePinnedTerminal {
++            peerWindowLevels.restore()
++        }
++    }
+ 
+     /// Tracks the cascade point for new windows, matching Ghostty's upstream algorithm.
+     /// Reset to `.zero` so the first window seeds the point from its own position.
+@@ -2168,6 +2191,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCent
+     func applicationWillBecomeActive(_ notification: Notification) { if !hasVisibleMainTerminalWindow() { _ = mainWindowVisibilityController.orderFrontApplicationWindowsBeforeActivation(windows: mainWindowsForVisibilityController(), reason: .applicationWillBecomeActive) } }
+ 
+     func applicationDidBecomeActive(_ notification: Notification) {
++        if let window = NSApp.keyWindow {
++            presentPeerWindow(window)
++        }
+         PortScanner.shared.setTrackedAgentScanningPaused(false)
+         let activationWindows = mainWindowsForVisibilityController()
+         if mainWindowVisibilityController.finishPendingApplicationActivationRestore(windows: activationWindows, reason: .applicationDidBecomeActive) == nil, !hasVisibleMainTerminalWindow() {
+@@ -2634,6 +2660,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCent
+     }
+ 
+     func applicationWillResignActive(_ notification: Notification) {
++        peerWindowLevels.restore()
+         guard !isTerminatingApp else { return }
+         PortScanner.shared.setTrackedAgentScanningPaused(true)
+         clearConfiguredShortcutChordState()
+diff --git a/Sources/CmuxLifecycleEventPublishing.swift b/Sources/CmuxLifecycleEventPublishing.swift
+index 426eb9a1..53e2f238 100644
+--- a/Sources/CmuxLifecycleEventPublishing.swift
++++ b/Sources/CmuxLifecycleEventPublishing.swift
+@@ -275,6 +275,7 @@ extension AppDelegate {
+     func handleCmuxWindowBecameKey(_ note: Notification) {
+         guard let window = note.object as? NSWindow else { return }
+         MainActor.assumeIsolated {
++            presentPeerWindow(window)
+             let context = senderRelativeMainWindowContext(for: window)
+             setActiveMainWindow(window)
+             if let windowId = mainWindowId(from: window) {
+diff --git a/Sources/Update/MinimalModeSidebarControls.swift b/Sources/Update/MinimalModeSidebarControls.swift
+index 4ac97bf4..e3692459 100644
+--- a/Sources/Update/MinimalModeSidebarControls.swift
++++ b/Sources/Update/MinimalModeSidebarControls.swift
+@@ -64,13 +64,15 @@ enum TitlebarControlsHitRegions {
+             focusBackX
+         case .focusHistoryForward:
+             focusForwardX
++        case .pinWindow:
++            focusForwardX + config.buttonSize + config.spacing
+         }
+         let width: CGFloat = switch slot {
+         case .newTab:
+             newTabWidth
+         case .newWorkspaceMenu:
+             newWorkspaceMenuWidth
+-        case .toggleSidebar, .showNotifications, .focusHistoryBack, .focusHistoryForward:
++        case .toggleSidebar, .showNotifications, .focusHistoryBack, .focusHistoryForward, .pinWindow:
+             config.buttonSize
+         }
+         return minX...(minX + width)
+@@ -91,7 +93,7 @@ enum TitlebarControlsHitRegions {
+     }
+ }
+ 
+-final class MinimalModeSidebarControlActionView: NSView {
++final class MinimalModeSidebarControlActionView: NSView, NSViewToolTipOwner {
+     var config = TitlebarControlsStyle.classic.config
+     {
+         didSet { needsLayout = true }
+@@ -108,6 +110,7 @@ final class MinimalModeSidebarControlActionView: NSView {
+     var onAction: ((MinimalModeSidebarControlActionSlot, NSView, NSPoint) -> Void)?
+     private var cancellables: Set<AnyCancellable> = []
+     private let buttons: [MinimalModeSidebarControlActionSlot: MinimalModeSidebarControlButton]
++    private var pinToolTipRect = NSRect.zero
+ 
+     override init(frame frameRect: NSRect) {
+         var buttons: [MinimalModeSidebarControlActionSlot: MinimalModeSidebarControlButton] = [:]
+@@ -152,8 +155,8 @@ final class MinimalModeSidebarControlActionView: NSView {
+         button.isTransparent = true
+         button.title = ""
+         button.bezelStyle = .regularSquare
+-        button.focusRingType = .none
+-        button.refusesFirstResponder = true
++        button.focusRingType = slot == .pinWindow ? .default : .none
++        button.refusesFirstResponder = slot != .pinWindow
+         button.setButtonType(.momentaryChange)
+         button.action = #selector(buttonPressed(_:))
+         button.identifier = NSUserInterfaceItemIdentifier(slot.accessibilityIdentifier)
+@@ -240,7 +243,7 @@ final class MinimalModeSidebarControlActionView: NSView {
+             _ = AppDelegate.shared?.showFocusHistoryContextMenu(anchorView: self, event: event, direction: .back)
+         case .focusHistoryForward:
+             _ = AppDelegate.shared?.showFocusHistoryContextMenu(anchorView: self, event: event, direction: .forward)
+-        case .showNotifications:
++        case .showNotifications, .pinWindow:
+             super.rightMouseDown(with: event)
+         }
+     }
+@@ -258,9 +261,19 @@ final class MinimalModeSidebarControlActionView: NSView {
+                 height: config.buttonSize
+             )
+         }
++        if let rect = buttons[.pinWindow]?.frame, rect != pinToolTipRect {
++            removeAllToolTips()
++            pinToolTipRect = rect
++            addToolTip(rect, owner: self, userData: nil)
++        }
+         syncButtons()
+     }
+ 
++    func view(_ view: NSView, stringForToolTip tag: NSView.ToolTipTag, point: NSPoint, userData data: UnsafeMutableRawPointer?) -> String {
++        guard isRevealed, let window = window as? CmuxMainWindow else { return "" }
++        return MainWindowPin.actionLabel(isPinned: window.pin.isPinned)
++    }
++
+     @objc private func buttonPressed(_ sender: NSButton) {
+         guard let sender = sender as? MinimalModeSidebarControlButton else { return }
+         performButtonAction(sender)
+@@ -348,7 +361,10 @@ private final class MinimalModeSidebarControlButton: NSButton {
+     }
+ 
+     override func accessibilityLabel() -> String? {
+-        slot.accessibilityLabel
++        if slot == .pinWindow, let window = window as? CmuxMainWindow {
++            return MainWindowPin.actionLabel(isPinned: window.pin.isPinned)
++        }
++        return slot.accessibilityLabel
+     }
+ 
+     override func accessibilityRole() -> NSAccessibility.Role? {
+diff --git a/Sources/Update/UpdateTitlebarAccessory.swift b/Sources/Update/UpdateTitlebarAccessory.swift
+index d5e721e0..0fc99e88 100644
+--- a/Sources/Update/UpdateTitlebarAccessory.swift
++++ b/Sources/Update/UpdateTitlebarAccessory.swift
+@@ -1021,6 +1021,7 @@ struct TitlebarControlsView: View {
+     @State private var appearanceRefreshTick = 0
+     @State private var isHoveringControls = false
+     @State private var hostWindowNumber: Int?
++    @State private var windowPin: MainWindowPin?
+     @State private var focusHistoryAvailabilityRevision: UInt64 = 0
+     @State private var modifierKeyMonitor = WindowScopedShortcutHintModifierMonitor(activation: .commandOnly)
+     private let titlebarShortcutHintXOffset = ShortcutHintDebugSettings.defaultTitlebarHintX
+@@ -1081,10 +1082,12 @@ struct TitlebarControlsView: View {
+             .background(
+                 WindowAccessor(refreshID: showModifierHoldHints) { window in
+                     let nextWindowNumber = window.windowNumber
++                    let pin = (window as? CmuxMainWindow)?.pin
+                     if hostWindowNumber != nextWindowNumber {
+                         DispatchQueue.main.async {
+                             if hostWindowNumber != nextWindowNumber {
+                                 hostWindowNumber = nextWindowNumber
++                                windowPin = pin
+                                 focusHistoryAvailabilityRevision &+= 1
+                             }
+                         }
+@@ -1114,6 +1117,7 @@ struct TitlebarControlsView: View {
+             .onDisappear {
+                 modifierKeyMonitor.stop()
+                 hostWindowNumber = nil
++                windowPin = nil
+             }
+             .onChange(of: showModifierHoldHints) { _, _ in
+                 startShortcutHintMonitorIfNeeded()
+@@ -1220,6 +1224,19 @@ struct TitlebarControlsView: View {
+             }
+             .safeHelp(KeyboardShortcutSettings.Action.focusHistoryForward.tooltip(String(localized: "menu.history.focusForward", defaultValue: "Focus Forward")))
+ 
++            let isPinned = windowPin?.isPinned == true
++            let pinLabel = MainWindowPin.actionLabel(isPinned: isPinned)
++            TitlebarControlButton(
++                config: config,
++                foregroundColor: foregroundColor,
++                accessibilityIdentifier: "titlebarControl.pinWindow",
++                accessibilityLabel: pinLabel,
++                action: { windowPin?.toggle() },
++                isEnabled: windowPin != nil
++            ) {
++                iconLabel(systemName: isPinned ? "pin.fill" : "pin", config: config, foregroundColor: foregroundColor, iconGeometryKeyPrefix: "titlebarControl_pinWindowIcon")
++            }
++            .safeHelp(pinLabel)
+         }
+ 
+         let paddedContent = content.padding(config.groupPadding)
+@@ -1649,6 +1666,8 @@ struct HiddenTitlebarSidebarControlsView: View {
+                     )
+                     guard availability.canNavigateForward else { return }
+                     onFocusHistoryForward()
++                case .pinWindow:
++                    (anchorView.window as? CmuxMainWindow)?.pin.toggle()
+                 }
+             }
+             .frame(
+diff --git a/Sources/WindowDecorationsController.swift b/Sources/WindowDecorationsController.swift
+index 6fd85285..420b4714 100644
+--- a/Sources/WindowDecorationsController.swift
++++ b/Sources/WindowDecorationsController.swift
+@@ -339,7 +339,9 @@ final class WindowDecorationsController {
+         Task { @MainActor in
+             guard let window = NSApp.windows.first(where: { ObjectIdentifier($0) == windowIdentifier }),
+                   let appDelegate = AppDelegate.shared,
+-                  let context = appDelegate.prepareSenderRelativeMainWindowAction(in: window) else {
++                  let context = slot == .pinWindow
++                    ? appDelegate.senderRelativeMainWindowContext(for: window)
++                    : appDelegate.prepareSenderRelativeMainWindowAction(in: window) else {
+                 return
+             }
+             switch slot {
+@@ -378,6 +380,8 @@ final class WindowDecorationsController {
+             case .focusHistoryForward:
+                 guard context.tabManager.canNavigateForward else { return }
+                 context.tabManager.navigateForward()
++            case .pinWindow:
++                (window as? CmuxMainWindow)?.pin.toggle()
+             }
+         }
+     }
+diff --git a/Sources/WindowDragHandleView.swift b/Sources/WindowDragHandleView.swift
+index 634dfea8..24fbcd6f 100644
+--- a/Sources/WindowDragHandleView.swift
++++ b/Sources/WindowDragHandleView.swift
+@@ -837,6 +837,7 @@ enum MinimalModeSidebarControlActionSlot: Int, CaseIterable {
+     case newWorkspaceMenu
+     case focusHistoryBack
+     case focusHistoryForward
++    case pinWindow
+ 
+     var accessibilityIdentifier: String {
+         switch self {
+@@ -852,6 +853,8 @@ enum MinimalModeSidebarControlActionSlot: Int, CaseIterable {
+             return "titlebarControl.focusHistoryBack"
+         case .focusHistoryForward:
+             return "titlebarControl.focusHistoryForward"
++        case .pinWindow:
++            return "titlebarControl.pinWindow"
+         }
+     }
+ 
+@@ -869,6 +872,8 @@ enum MinimalModeSidebarControlActionSlot: Int, CaseIterable {
+             return String(localized: "menu.history.focusBack", defaultValue: "Focus Back")
+         case .focusHistoryForward:
+             return String(localized: "menu.history.focusForward", defaultValue: "Focus Forward")
++        case .pinWindow:
++            return String(localized: "titlebar.pinWindow", defaultValue: "Pin Window")
+         }
+     }
+ 
+@@ -886,6 +891,8 @@ enum MinimalModeSidebarControlActionSlot: Int, CaseIterable {
+             return "focusHistoryBack"
+         case .focusHistoryForward:
+             return "focusHistoryForward"
++        case .pinWindow:
++            return "pinWindow"
+         }
+     }
+ 
+@@ -893,7 +900,7 @@ enum MinimalModeSidebarControlActionSlot: Int, CaseIterable {
+         switch self {
+         case .toggleSidebar, .newTab, .newWorkspaceMenu, .focusHistoryBack, .focusHistoryForward:
+             return true
+-        case .showNotifications:
++        case .showNotifications, .pinWindow:
+             return false
+         }
+     }
+diff --git a/Sources/cmuxApp.swift b/Sources/cmuxApp.swift
+index 309a68fd..e8556feb 100644
+--- a/Sources/cmuxApp.swift
++++ b/Sources/cmuxApp.swift
+@@ -43,6 +43,7 @@ struct cmuxApp: App {
+     @AppStorage(ChiefCatalogSection().enabled.userDefaultsKey)
+     private var chiefEnabled = ChiefCatalogSection().enabled.defaultValue
+     @State private var aboutWindowController: AboutWindowController?
++    @State private var menuWindowPin: MainWindowPin?
+     @State private var browserFocusModeMenuRevision = 0
+     @State private var browserAvailabilityMenuRevision = 0
+     @State var historyMenuCoordinator: HistoryMenuCoordinator
+@@ -511,6 +512,15 @@ struct cmuxApp: App {
+                     }
+ #endif
+                     bootstrapMainWindowScene()
++                    menuWindowPin = (NSApp.keyWindow as? CmuxMainWindow)?.pin
++                }
++                .onReceive(NotificationCenter.default.publisher(for: NSWindow.didBecomeKeyNotification)) { note in
++                    menuWindowPin = (note.object as? CmuxMainWindow)?.pin
++                }
++                .onReceive(NotificationCenter.default.publisher(for: NSWindow.didResignKeyNotification)) { note in
++                    if let window = note.object as? CmuxMainWindow, menuWindowPin === window.pin {
++                        menuWindowPin = nil
++                    }
+                 }
+                 .onChange(of: appearanceMode) { _ in
+                     applyAppearance()
+@@ -1102,6 +1112,10 @@ struct cmuxApp: App {
+     @CommandsBuilder
+     private var windowAndViewCommands: some Commands {
+         CommandGroup(after: .windowArrangement) {
++            Button(MainWindowPin.actionLabel(isPinned: menuWindowPin?.isPinned == true)) {
++                (NSApp.keyWindow as? CmuxMainWindow)?.pin.toggle()
++            }
++            .disabled(menuWindowPin == nil)
+             Button(String(localized: "menu.window.taskManager", defaultValue: "Task Manager...")) {
+                 TaskManagerWindowController.shared.show()
+             }
+diff --git a/cmux.xcodeproj/project.pbxproj b/cmux.xcodeproj/project.pbxproj
+index 8be450f0..e88842ea 100644
+--- a/cmux.xcodeproj/project.pbxproj
++++ b/cmux.xcodeproj/project.pbxproj
+@@ -2650,6 +2650,8 @@
+ 		9666E0019666E0019666E001 /* MainWindowLifecyclePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666E0029666E0029666E002 /* MainWindowLifecyclePhase.swift */; };
+ 		9666E0039666E0039666E003 /* MainWindowLifecycleRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666E0049666E0049666E004 /* MainWindowLifecycleRecord.swift */; };
+ 		9666F1019666F1019666F101 /* MainWindowPersistenceRouteSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666F1029666F1029666F102 /* MainWindowPersistenceRouteSnapshot.swift */; };
++		2536A787AE5E2705D1421CF8 /* MainWindowPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0E3FE0F4E24C60D336582 /* MainWindowPin.swift */; };
++		A0EA5821E82F199CDBA38EA7 /* MainWindowPinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09F1F594D41001BDBB8A6D /* MainWindowPinTests.swift */; };
+ 		9666F0019666F0019666F001 /* MainWindowRouteAutosaveProjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666F0029666F0029666F002 /* MainWindowRouteAutosaveProjection.swift */; };
+ 		9666A0019666A0019666A001 /* MainWindowRouteDockState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666A0029666A0029666A002 /* MainWindowRouteDockState.swift */; };
+ 		9666D0019666D0019666D001 /* MainWindowRouteSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9666D0029666D0029666D002 /* MainWindowRouteSnapshot.swift */; };
+@@ -7350,6 +7352,8 @@
+ 		9666E0029666E0029666E002 /* MainWindowLifecyclePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowLifecyclePhase.swift; sourceTree = "<group>"; };
+ 		9666E0049666E0049666E004 /* MainWindowLifecycleRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowLifecycleRecord.swift; sourceTree = "<group>"; };
+ 		9666F1029666F1029666F102 /* MainWindowPersistenceRouteSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowPersistenceRouteSnapshot.swift; sourceTree = "<group>"; };
++		01E0E3FE0F4E24C60D336582 /* MainWindowPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/MainWindowPin.swift; sourceTree = "<group>"; };
++		AD09F1F594D41001BDBB8A6D /* MainWindowPinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainWindowPinTests.swift"; sourceTree = "<group>"; };
+ 		9666F0029666F0029666F002 /* MainWindowRouteAutosaveProjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowRouteAutosaveProjection.swift; sourceTree = "<group>"; };
+ 		9666A0029666A0029666A002 /* MainWindowRouteDockState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowRouteDockState.swift; sourceTree = "<group>"; };
+ 		9666D0029666D0029666D002 /* MainWindowRouteSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowRouteSnapshot.swift; sourceTree = "<group>"; };
+@@ -12700,6 +12704,7 @@
+ 				D4D9700C7689786CCDB82CAE /* TerminalController+AgentMessageClaim.swift */,
+ 				17A22999A4C0E113B255C2E7 /* NotificationsPopoverView.swift */,
+ 				067ED4C318664E11B67921F3 /* AppDelegate+NotificationsPopoverDigits.swift */,
++				01E0E3FE0F4E24C60D336582 /* MainWindowPin.swift */,
+ 			);
+ 			path = Sources;
+ 			sourceTree = "<group>";
+@@ -14353,6 +14358,7 @@
+ 				4189B3FB78ACEE79AE12B1AA /* ChiefDisabledHomeTests.swift */,
+ 				2E93DBA33C7287FE3D7FA1BB /* NotificationPopoverRowLayoutTests.swift */,
+ 				C0C7EE23B232921D28CA56FD /* NotificationsPopoverDrawnRowsTests.swift */,
++				AD09F1F594D41001BDBB8A6D /* MainWindowPinTests.swift */,
+ 			);
+ 			path = cmuxTests;
+ 			sourceTree = "<group>";
+@@ -16530,6 +16536,7 @@
+ 				9666E0019666E0019666E001 /* MainWindowLifecyclePhase.swift in Sources */,
+ 				9666E0039666E0039666E003 /* MainWindowLifecycleRecord.swift in Sources */,
+ 				9666F1019666F1019666F101 /* MainWindowPersistenceRouteSnapshot.swift in Sources */,
++				2536A787AE5E2705D1421CF8 /* MainWindowPin.swift in Sources */,
+ 				9666F0019666F0019666F001 /* MainWindowRouteAutosaveProjection.swift in Sources */,
+ 				9666A0019666A0019666A001 /* MainWindowRouteDockState.swift in Sources */,
+ 				9666D0019666D0019666D001 /* MainWindowRouteSnapshot.swift in Sources */,
+@@ -19170,6 +19177,7 @@
+ 				6512F0C06512F0C06512F002 /* MainWindowFocusRestoreTests.swift in Sources */,
+ 				DF058AC1F47DF6606DB5BC7C /* MainWindowHitTestMutationMonitorTests.swift in Sources */,
+ 				9666D1019666D1019666D101 /* MainWindowLifecycleCoordinatorTests.swift in Sources */,
++				A0EA5821E82F199CDBA38EA7 /* MainWindowPinTests.swift in Sources */,
+ 				40ED33F6C1CEB26EAE7C9476 /* MainWindowSelfSizingTests.swift in Sources */,
+ 				17C9F5BA0DD14EDC8C3E5001 /* MainWindowVisibilityControllerTests.swift in Sources */,
+ 				A6D1F0100000000000000002 /* MainWindowVisibilityLifecycleTests.swift in Sources */,
+diff --git a/cmuxTests/MainWindowPinTests.swift b/cmuxTests/MainWindowPinTests.swift
+new file mode 100644
+index 00000000..22b3d69a
+--- /dev/null
++++ b/cmuxTests/MainWindowPinTests.swift
+@@ -0,0 +1,107 @@
++import AppKit
++import Testing
++
++#if canImport(cmux_DEV)
++@testable import cmux_DEV
++#elseif canImport(cmux)
++@testable import cmux
++#endif
++
++@MainActor
++@Suite
++struct MainWindowPinTests {
++    private func makeMainWindow() -> CmuxMainWindow {
++        let window = CmuxMainWindow(
++            contentRect: NSRect(x: 0, y: 0, width: 800, height: 600),
++            styleMask: [.titled, .closable, .resizable], backing: .buffered, defer: true
++        )
++        window.isReleasedWhenClosed = false
++        return window
++    }
++
++    @Test func mainWindowsPinIndependentlyWithoutChangingSpaces() {
++        let first = makeMainWindow()
++        let second = makeMainWindow()
++        let behavior = first.collectionBehavior
++        #expect(first.level == .normal)
++        first.pin.toggle()
++        #expect(first.level == .floating)
++        #expect(second.level == .normal)
++        second.pin.toggle()
++        first.pin.toggle()
++        #expect(first.level == .normal)
++        #expect(second.level == .floating)
++        #expect(first.collectionBehavior == behavior)
++    }
++
++    @Test func fullscreenSuspendsPinAndFailedEntryRestoresIt() {
++        let window = makeMainWindow()
++        let controller = MainWindowController(window: window)
++        let enter = Notification(name: NSWindow.willEnterFullScreenNotification, object: window)
++        window.pin.toggle()
++        controller.windowWillEnterFullScreen(enter)
++        #expect(window.pin.isPinned)
++        #expect(window.level == .normal)
++        controller.windowDidFailToEnterFullScreen(window)
++        #expect(window.level == .floating)
++        controller.windowWillEnterFullScreen(enter)
++        controller.windowDidExitFullScreen(Notification(name: NSWindow.didExitFullScreenNotification, object: window))
++        #expect(window.level == .floating)
++        controller.windowWillEnterFullScreen(enter)
++        window.pin.toggle()
++        controller.windowDidExitFullScreen(Notification(name: NSWindow.didExitFullScreenNotification, object: window))
++        #expect(window.level == .normal)
++    }
++
++    @Test func closeDetachesEvenWhenTitlebarStillReferencesPin() {
++        let window = makeMainWindow()
++        let controller = MainWindowController(window: window)
++        let pin = window.pin
++        pin.toggle()
++        controller.windowWillClose(Notification(name: NSWindow.willCloseNotification, object: window))
++        pin.toggle()
++        #expect(!pin.isPinned)
++        #expect(window.level == .normal)
++        #expect(makeMainWindow().level == .normal)
++    }
++
++    @Test func presentedPeersClearPinnedTerminalAndGiveUpTheirTemporaryLevel() {
++        let levels = CmuxPeerWindowLevels()
++        let main = makeMainWindow()
++        let settings = NSWindow()
++        settings.styleMask = [.titled, .closable]
++        let popup = NSPanel()
++        popup.styleMask = [.titled, .closable]
++        popup.level = .normal
++        main.pin.toggle()
++        levels.present(settings, overPinnedTerminal: true)
++        #expect(settings.level.rawValue > main.level.rawValue)
++        levels.present(popup, overPinnedTerminal: true)
++        #expect(settings.level == .normal)
++        #expect(popup.level.rawValue > main.level.rawValue)
++        levels.present(main, overPinnedTerminal: true)
++        #expect(popup.level == .normal)
++        #expect(main.level == .floating)
++        levels.present(settings, overPinnedTerminal: true)
++        levels.present(settings, overPinnedTerminal: false)
++        #expect(settings.level == .normal)
++    }
++
++    @Test func preservesSpecialPanelLevelsAndAttachedChildren() {
++        let levels = CmuxPeerWindowLevels()
++        let panel = NSPanel()
++        panel.styleMask = [.titled, .closable]
++        panel.level = .modalPanel
++        levels.present(panel, overPinnedTerminal: true)
++        levels.restore()
++        #expect(panel.level == .modalPanel)
++        let parent = NSWindow()
++        let child = NSWindow()
++        child.styleMask = [.titled, .closable]
++        parent.addChildWindow(child, ordered: .above)
++        defer { parent.removeChildWindow(child) }
++        let level = child.level
++        levels.present(child, overPinnedTerminal: true)
++        #expect(child.level == level)
++    }
++}
+diff --git a/cmuxTests/UpdatePillReleaseVisibilityTests.swift b/cmuxTests/UpdatePillReleaseVisibilityTests.swift
+index fd45022c..f84450f5 100644
+--- a/cmuxTests/UpdatePillReleaseVisibilityTests.swift
++++ b/cmuxTests/UpdatePillReleaseVisibilityTests.swift
+@@ -617,7 +617,7 @@ struct TitlebarControlsHoverPolicyTests {
+                     TitlebarNewWorkspaceSplitButtonMetrics.primaryWidth(config: config)
+                 case .some(.newWorkspaceMenu):
+                     TitlebarNewWorkspaceSplitButtonMetrics.dropdownWidth(config: config)
+-                case .some(.toggleSidebar), .some(.showNotifications), .some(.focusHistoryBack), .some(.focusHistoryForward), nil:
++                case .some(.toggleSidebar), .some(.showNotifications), .some(.focusHistoryBack), .some(.focusHistoryForward), .some(.pinWindow), nil:
+                     config.buttonSize
+                 }
+                 checkEqual(
+diff --git a/cmuxTests/WindowAndDragTests.swift b/cmuxTests/WindowAndDragTests.swift
+index c777f31f..d3a2bdd9 100644
+--- a/cmuxTests/WindowAndDragTests.swift
++++ b/cmuxTests/WindowAndDragTests.swift
+@@ -1117,11 +1117,21 @@ final class WindowDragHandleHitTests: XCTestCase {
+                 "titlebarControl.newWorkspaceMenu",
+                 "titlebarControl.focusHistoryBack",
+                 "titlebarControl.focusHistoryForward",
++                "titlebarControl.pinWindow",
+             ],
+             "The hidden minimal-mode click lanes must match the visible titlebar control order."
+         )
+         let menuLane = ranges[MinimalModeSidebarControlActionSlot.newWorkspaceMenu.rawValue]
+         let newTabLane = ranges[MinimalModeSidebarControlActionSlot.newTab.rawValue]
++        let forwardLane = ranges[MinimalModeSidebarControlActionSlot.focusHistoryForward.rawValue]
++        let pinLane = ranges[MinimalModeSidebarControlActionSlot.pinWindow.rawValue]
++        XCTAssertEqual(
++            TitlebarControlsHitRegions.sidebarActionSlot(at: NSPoint(x: (pinLane.lowerBound + pinLane.upperBound) / 2, y: 14), config: config),
++            .pinWindow
++        )
++        XCTAssertNil(
++            TitlebarControlsHitRegions.sidebarActionSlot(at: NSPoint(x: (forwardLane.upperBound + pinLane.lowerBound) / 2, y: 14), config: config)
++        )
+         XCTAssertEqual(
+             menuLane.lowerBound,
+             newTabLane.upperBound,
